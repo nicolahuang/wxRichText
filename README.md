@@ -46,6 +46,6 @@ wxRichText(htmlString, function(nodes){
 })
 
 example.wxml
-<rich-text nodes="{{nodes}}" />
+&lt;rich-text nodes="{{nodes}}" /&gt;
 
 </pre>
