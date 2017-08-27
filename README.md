@@ -10,6 +10,8 @@ a lib to render html string in wechat tiny program
 
 使用方法如下：
 
+
+<pre>
 example.js:
 
 var wxRichText = require('./wxRichText/wxRichText')
@@ -46,5 +48,4 @@ wxRichText(htmlString, function(nodes){
 example.wxml
 <rich-text nodes="{{nodes}}" />
 
-
-
+</pre>
