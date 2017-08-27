@@ -17,26 +17,26 @@ example.js:
 var wxRichText = require('./wxRichText/wxRichText')
 
 var htmlString = `
-<html>
-  <head>
-    <style>
+  &lt;html&gt;
+  &lt;head&gt;
+    &lt;style&gt;
       body { padding: 20px; }
       .container { margin: 0 auto; }
       .container .title { font-size: 24px; }
       .container p { margin: 16px 0; color: #333; }
       p.red { color: red; }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1 class="title">这是标题</h1>
-      <div class="content">
-        <p>这是正文</p>
-        <p class="red">这是红色文本</p>
-      </div>
-    </div>
-  </body>
-</html>
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class="container"&gt;
+      &lt;h1 class="title"&gt;这是标题&lt;/h1&gt;
+      &lt;div class="content"&gt;
+        &lt;p&gt;这是正文&lt;/p&gt;
+        &lt;p class="red"&gt;这是红色文本&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
 `
 
 wxRichText(htmlString, function(nodes){
